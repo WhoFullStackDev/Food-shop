@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="pop-up">
+      <div class="pop-container">
+        <img src="assets/images/icon-order-confirmed.svg" alt="confirmed" />
+        <h1>Order Confirmed</h1>
+        <p>we hope you enjoy your food!</p>
+        <div class="pop-content"><div id="product-list-container"></div></div>
+        <div id="confirmed-order-button"></div>
+      </div>
+    </div>
+    <section class="container">
+      <div class="topSection">
+        <div><h1>Desserts</h1></div>
+        <div id="cards"></div>
+      </div>
+      <div id="bottomSection">
+        <h1>Your Cart (<span id="number"></span>)</h1>
+        <div id="product-list"></div>
+      </div>
+    </section>
+  </body>
+  <script src="script.js"></script>
+</html>
